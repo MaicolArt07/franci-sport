@@ -1,0 +1,28 @@
+{
+	"name": "ev/content-box",
+	"title": "Content Box",
+	"description": "",
+	"style": "block-content-box",
+	"category": "ev-blocks",
+	"icon": "",
+	"apiVersion": 2,
+	"keywords": [],
+	"acf": {
+		"mode": "preview",
+		"renderTemplate": "render.php"
+	},
+	"styles": [
+	],
+	"supports": {
+		"align": false,
+		"anchor": false,
+		"alignContent": false,
+		"color": {
+			"text": false,
+			"background": false,
+			"link": false
+		},
+		"alignText": true,
+		"fullHeight": false
+	}
+}

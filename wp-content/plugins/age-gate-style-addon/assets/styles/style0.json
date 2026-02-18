@@ -1,0 +1,9 @@
+{
+    "version": "3.5.2",
+    "options": {
+        "tools": {
+            "disable_age_gate": "1",
+            "dev_warning": "1"
+        }
+    }
+}

@@ -1,0 +1,307 @@
+0000.002 (0) Opened log file at time: Wed, 01 Oct 2025 13:08:05 +0000 on http://pbt.francit.sport
+0000.014 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.6 WP: 6.8.1 PHP: 8.3.14 (cgi-fcgi, Windows NT DESKTOP-K0DIGTC 10.0 build 19045 (Windows 10) AMD64) MySQL: 9.1.0 (max packet size=67108864) WPLANG: en_US Server: Apache/2.4.62 (Win64) PHP/8.3.14 mod_fcgid/2.3.10-dev safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12.6M | 18M) multisite: N openssl: OpenSSL 3.0.15 3 Sep 2024 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.023 (0) Free space on disk containing Updraft's temporary directory: 85577.2 MB
+0000.036 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.044 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.101 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1750511367, seconds_ago=8812719)
+0000.126 (0) Set semaphore last lock (fd) time to 2025-10-01 13:08:06
+0000.135 (0) Semaphore lock (fd) complete
+0000.157 (0) Backup run: resumption=0, nonce=1a82cd4c69c4, file_nonce=1a82cd4c69c4 begun at=1759324085 (1s ago), job type=backup
+0000.170 (0) Scheduling a resumption (1) after 300 seconds (1759324386) in case this run gets aborted
+0000.252 (0) Checking if we have a zip executable available
+0000.264 (0) Creation of backups of directories: beginning
+0000.277 (0) No backup of plugins: excluded by user's options
+0000.282 (0) No backup of themes: excluded by user's options
+0000.289 (0) No backup of uploads: excluded by user's options
+0000.296 (0) No backup of mu-plugins: excluded by user's options
+0000.302 (0) No backup of others: excluded by user's options
+0000.327 (0) Saving backup status to database (elements: 0)
+0000.414 (0) Beginning creation of database dump (WordPress DB)
+0000.420 (0) Couldn't get the sql_mode value (N;); will not attempt any adjustment
+0000.485 (0) Table wp_options: Total expected rows (via COUNT): 478
+0000.491 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.554 (0) Table wp_options: Rows added in this batch (next record: 7912): 474 (uncompressed bytes in this segment=464423) in 0.08 seconds
+0000.606 (0) Table wp_options: finishing file(s) (2, 71.6 KB)
+0000.648 (0) Table wp_users: Total expected rows (via COUNT): 2
+0000.656 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.671 (0) Table wp_users: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1786) in 0.04 seconds
+0000.701 (0) Table wp_users: finishing file(s) (2, 0.7 KB)
+0000.745 (0) Table wp_usermeta: Total expected rows (via COUNT): 84
+0000.752 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.775 (0) Table wp_usermeta: Rows added in this batch (next record: 85): 84 (uncompressed bytes in this segment=7629) in 0.05 seconds
+0000.812 (0) Table wp_usermeta: finishing file(s) (2, 2.2 KB)
+0000.861 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0000.876 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=721) in 0.04 seconds
+0000.906 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0000.955 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0000.962 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0000.982 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2294) in 0.05 seconds
+0001.010 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0001.052 (0) Table wp_links: Total expected rows (via COUNT): 0
+0001.064 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1496) in 0.03 seconds
+0001.088 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0001.123 (0) Table wp_postmeta: Total expected rows (approximate): 1516
+0001.180 (0) Table wp_postmeta: Rows added in this batch (next record: 3215): 1514 (uncompressed bytes in this segment=205333) in 0.07 seconds
+0001.203 (0) Table wp_postmeta: finishing file(s) (2, 27.8 KB)
+0001.232 (0) Table wp_posts: Total expected rows (via COUNT): 269
+0001.238 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.290 (0) Table wp_posts: Rows added in this batch (next record: 25158): 269 (uncompressed bytes in this segment=419590) in 0.07 seconds
+0001.314 (0) Table wp_posts: finishing file(s) (2, 66.1 KB)
+0001.335 (0) Table wp_term_relationships: Total expected rows (approximate): 17
+0001.348 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 16 (uncompressed bytes in this segment=931) in 0.02 seconds
+0001.387 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0001.422 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 4
+0001.428 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.442 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1047) in 0.03 seconds
+0001.476 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0001.528 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0001.541 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=694) in 0.04 seconds
+0001.575 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0001.611 (0) Table wp_terms: Total expected rows (via COUNT): 4
+0001.619 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.636 (0) Table wp_terms: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=915) in 0.03 seconds
+0001.662 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0001.720 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 35
+0001.727 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.747 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 24923): 35 (uncompressed bytes in this segment=17974) in 0.06 seconds
+0001.788 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 2 KB)
+0001.832 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0001.848 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=622) in 0.04 seconds
+0001.869 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0001.916 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 3
+0001.929 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0001.945 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=736) in 0.06 seconds
+0001.971 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0002.021 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 104
+0002.028 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.046 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 239): 104 (uncompressed bytes in this segment=10531) in 0.05 seconds
+0002.067 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 1.6 KB)
+0002.141 (0) Table wp_cky_banners: Total expected rows (via COUNT): 2
+0002.144 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.151 (0) Table wp_cky_banners: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=19422) in 0.06 seconds
+0002.165 (0) Table wp_cky_banners: finishing file(s) (2, 3.1 KB)
+0002.199 (0) Table wp_cky_cookie_categories: Total expected rows (via COUNT): 5
+0002.202 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.207 (0) Table wp_cky_cookie_categories: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=2786) in 0.03 seconds
+0002.220 (0) Table wp_cky_cookie_categories: finishing file(s) (2, 1.1 KB)
+0002.237 (0) Table wp_cky_cookies: Total expected rows (via COUNT): 0
+0002.243 (0) Table wp_cky_cookies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1327) in 0.01 seconds
+0002.256 (0) Table wp_cky_cookies: finishing file(s) (2, 0.5 KB)
+0002.286 (0) Table wp_db7_forms: Total expected rows (via COUNT): 14
+0002.289 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.296 (0) Table wp_db7_forms: Rows added in this batch (next record: 14): 14 (uncompressed bytes in this segment=3878) in 0.03 seconds
+0002.309 (0) Table wp_db7_forms: finishing file(s) (2, 0.9 KB)
+0002.336 (0) Table wp_rank_math_analytics_gsc: Total expected rows (via COUNT): 0
+0002.342 (0) Table wp_rank_math_analytics_gsc: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1009) in 0.02 seconds
+0002.353 (0) Table wp_rank_math_analytics_gsc: finishing file(s) (2, 0.5 KB)
+0002.390 (0) Table wp_rank_math_analytics_inspections: Total expected rows (via COUNT): 0
+0002.393 (0) Table wp_rank_math_analytics_inspections: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2232) in 0.03 seconds
+0002.407 (0) Table wp_rank_math_analytics_inspections: finishing file(s) (2, 0.6 KB)
+0002.436 (0) Table wp_rank_math_analytics_objects: Total expected rows (via COUNT): 21
+0002.438 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0002.446 (0) Table wp_rank_math_analytics_objects: Rows added in this batch (next record: 21): 21 (uncompressed bytes in this segment=6835) in 0.03 seconds
+0002.459 (0) Table wp_rank_math_analytics_objects: finishing file(s) (2, 2.2 KB)
+0002.488 (0) Table wp_rank_math_internal_links: Total expected rows (via COUNT): 0
+0002.493 (0) Table wp_rank_math_internal_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=830) in 0.03 seconds
+0002.504 (0) Table wp_rank_math_internal_links: finishing file(s) (2, 0.4 KB)
+0002.527 (0) Table wp_rank_math_internal_meta: Total expected rows (via COUNT): 0
+0002.532 (0) Table wp_rank_math_internal_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=637) in 0.02 seconds
+0002.542 (0) Table wp_rank_math_internal_meta: finishing file(s) (2, 0.3 KB)
+0002.552 (0) Table wp_wfauditevents: Total expected rows (via COUNT): 0
+0002.557 (0) Table wp_wfauditevents: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=700) in 0.01 seconds
+0002.567 (0) Table wp_wfauditevents: finishing file(s) (2, 0.4 KB)
+0002.577 (0) Table wp_wfblockediplog: Total expected rows (approximate): 0
+0002.580 (0) Table wp_wfblockediplog: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=624) in 0.00 seconds
+0002.589 (0) Table wp_wfblockediplog: finishing file(s) (2, 0.4 KB)
+0002.600 (0) Table wp_wfblocks7: Total expected rows (via COUNT): 0
+0002.603 (0) Table wp_wfblocks7: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=790) in 0.01 seconds
+0002.615 (0) Table wp_wfblocks7: finishing file(s) (2, 0.4 KB)
+0002.627 (0) Table wp_wfconfig: Total expected rows (approximate): 271
+0002.693 (0) Table wp_wfconfig: Rows added in this batch (next record: 1000): 274 (uncompressed bytes in this segment=890647) in 0.07 seconds
+0002.704 (0) Table wp_wfconfig: finishing file(s) (2, 448.9 KB)
+0002.715 (0) Table wp_wfcrawlers: Total expected rows (approximate): 0
+0002.718 (0) Table wp_wfcrawlers: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=551) in 0.01 seconds
+0002.730 (0) Table wp_wfcrawlers: finishing file(s) (2, 0.3 KB)
+0002.743 (0) Table wp_wffilechanges: Total expected rows (approximate): 0
+0002.757 (0) Table wp_wffilechanges: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=455) in 0.02 seconds
+0002.769 (0) Table wp_wffilechanges: finishing file(s) (2, 0.3 KB)
+0002.783 (0) Table wp_wffilemods: Total expected rows (approximate): 9420
+0003.332 (0) Table wp_wffilemods: Rows added in this batch (next record: 12000): 10031 (uncompressed bytes in this segment=3729083) in 0.55 seconds
+0003.343 (0) Table wp_wffilemods: finishing file(s) (2, 1116.8 KB)
+0003.352 (0) Table wp_wfhits: Total expected rows (via COUNT): 0
+0003.355 (0) Table wp_wfhits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=901) in 0.01 seconds
+0003.365 (0) Table wp_wfhits: finishing file(s) (2, 0.5 KB)
+0003.390 (0) Table wp_wfhoover: Total expected rows (via COUNT): 0
+0003.393 (0) Table wp_wfhoover: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=475) in 0.02 seconds
+0003.403 (0) Table wp_wfhoover: finishing file(s) (2, 0.3 KB)
+0003.415 (0) Table wp_wfissues: Total expected rows (via COUNT): 0
+0003.418 (0) Table wp_wfissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=811) in 0.01 seconds
+0003.429 (0) Table wp_wfissues: finishing file(s) (2, 0.4 KB)
+0003.444 (0) Table wp_wfknownfilelist: Total expected rows (approximate): 9684
+0003.671 (0) Table wp_wfknownfilelist: Rows added in this batch (next record: 10032): 10032 (uncompressed bytes in this segment=1871939) in 0.23 seconds
+0003.680 (0) Table wp_wfknownfilelist: finishing file(s) (2, 146.3 KB)
+0003.690 (0) Table wp_wflivetraffichuman: Total expected rows (approximate): 0
+0003.693 (0) Table wp_wflivetraffichuman: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=647) in 0.01 seconds
+0003.702 (0) Table wp_wflivetraffichuman: finishing file(s) (2, 0.3 KB)
+0003.711 (0) Table wp_wflocs: Total expected rows (approximate): 0
+0003.713 (0) Table wp_wflocs: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=678) in 0.00 seconds
+0003.721 (0) Table wp_wflocs: finishing file(s) (2, 0.4 KB)
+0003.730 (0) Table wp_wflogins: Total expected rows (via COUNT): 53
+0003.732 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.738 (0) Table wp_wflogins: Rows added in this batch (next record: 53): 53 (uncompressed bytes in this segment=12597) in 0.01 seconds
+0003.746 (0) Table wp_wflogins: finishing file(s) (2, 1.7 KB)
+0003.771 (0) Table wp_wfls_2fa_secrets: Total expected rows (via COUNT): 0
+0003.777 (0) Table wp_wfls_2fa_secrets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=668) in 0.02 seconds
+0003.788 (0) Table wp_wfls_2fa_secrets: finishing file(s) (2, 0.4 KB)
+0003.802 (0) Table wp_wfls_role_counts: Total expected rows (approximate): 0
+0003.805 (0) Table wp_wfls_role_counts: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=546) in 0.00 seconds
+0003.817 (0) Table wp_wfls_role_counts: finishing file(s) (2, 0.3 KB)
+0003.828 (0) Table wp_wfls_settings: Total expected rows (approximate): 30
+0003.832 (0) Table wp_wfls_settings: Rows added in this batch (next record: 1000): 30 (uncompressed bytes in this segment=2054) in 0.01 seconds
+0003.842 (0) Table wp_wfls_settings: finishing file(s) (2, 0.9 KB)
+0003.853 (0) Table wp_wfnotifications: Total expected rows (approximate): 4
+0003.856 (0) Table wp_wfnotifications: Rows added in this batch (next record: 1000): 4 (uncompressed bytes in this segment=1351) in 0.01 seconds
+0003.866 (0) Table wp_wfnotifications: finishing file(s) (2, 0.6 KB)
+0003.891 (0) Table wp_wfpendingissues: Total expected rows (via COUNT): 1
+0003.894 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0003.899 (0) Table wp_wfpendingissues: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1436) in 0.02 seconds
+0003.909 (0) Table wp_wfpendingissues: finishing file(s) (2, 0.7 KB)
+0003.919 (0) Table wp_wfreversecache: Total expected rows (approximate): 0
+0003.924 (0) Table wp_wfreversecache: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=496) in 0.01 seconds
+0003.935 (0) Table wp_wfreversecache: finishing file(s) (2, 0.3 KB)
+0003.945 (0) Table wp_wfsecurityevents: Total expected rows (via COUNT): 0
+0003.948 (0) Table wp_wfsecurityevents: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=677) in 0.01 seconds
+0003.959 (0) Table wp_wfsecurityevents: finishing file(s) (2, 0.4 KB)
+0003.986 (0) Table wp_wfsnipcache: Total expected rows (via COUNT): 0
+0003.989 (0) Table wp_wfsnipcache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=709) in 0.02 seconds
+0004.000 (0) Table wp_wfsnipcache: finishing file(s) (2, 0.4 KB)
+0004.011 (0) Table wp_wfstatus: Total expected rows (via COUNT): 951
+0004.035 (0) Table wp_wfstatus: Rows added in this batch (next record: 5847): 951 (uncompressed bytes in this segment=93850) in 0.03 seconds
+0004.044 (0) Table wp_wfstatus: finishing file(s) (2, 15.5 KB)
+0004.054 (0) Table wp_wftrafficrates: Total expected rows (approximate): 0
+0004.057 (0) Table wp_wftrafficrates: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=561) in 0.00 seconds
+0004.067 (0) Table wp_wftrafficrates: finishing file(s) (2, 0.3 KB)
+0004.077 (0) Table wp_wfwaffailures: Total expected rows (via COUNT): 0
+0004.079 (0) Table wp_wfwaffailures: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=522) in 0.01 seconds
+0004.089 (0) Table wp_wfwaffailures: finishing file(s) (2, 0.3 KB)
+0004.112 (0) Table wp_wpfm_backup: Total expected rows (via COUNT): 0
+0004.115 (0) Table wp_wpfm_backup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=554) in 0.02 seconds
+0004.129 (0) Table wp_wpfm_backup: finishing file(s) (2, 0.3 KB)
+0004.132 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\wamp64\www\franci-sport/wp-content/updraft/backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db.gz (line 1923, C:\wamp64\www\franci-sport\wp-content\plugins\updraftplus\backup.php)
+0004.138 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_options.table.tmpr7913.gz (1/51/fopen): adding to final database dump
+0004.143 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_options.table.gz (2/51/fopen): adding to final database dump
+0004.146 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_users.table.tmpr3.gz (3/51/fopen): adding to final database dump
+0004.148 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_users.table.gz (4/51/fopen): adding to final database dump
+0004.150 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_usermeta.table.tmpr86.gz (5/51/fopen): adding to final database dump
+0004.154 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_usermeta.table.gz (6/51/fopen): adding to final database dump
+0004.157 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_commentmeta.table.tmpr0.gz (7/51/fopen): adding to final database dump
+0004.160 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_commentmeta.table.gz (8/51/fopen): adding to final database dump
+0004.163 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_comments.table.tmpr2.gz (9/51/fopen): adding to final database dump
+0004.166 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_comments.table.gz (10/51/fopen): adding to final database dump
+0004.169 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_links.table.tmpr0.gz (11/51/fopen): adding to final database dump
+0004.172 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_links.table.gz (12/51/fopen): adding to final database dump
+0004.175 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_postmeta.table.tmpr3216.gz (13/51/fopen): adding to final database dump
+0004.179 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_postmeta.table.gz (14/51/fopen): adding to final database dump
+0004.182 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_posts.table.tmpr25159.gz (15/51/fopen): adding to final database dump
+0004.187 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_posts.table.gz (16/51/fopen): adding to final database dump
+0004.190 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_term_relationships.table.tmpr100001.gz (17/51/fopen): adding to final database dump
+0004.193 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_term_relationships.table.gz (18/51/fopen): adding to final database dump
+0004.196 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_term_taxonomy.table.tmpr5.gz (19/51/fopen): adding to final database dump
+0004.199 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_term_taxonomy.table.gz (20/51/fopen): adding to final database dump
+0004.202 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_termmeta.table.tmpr0.gz (21/51/fopen): adding to final database dump
+0004.205 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_termmeta.table.gz (22/51/fopen): adding to final database dump
+0004.208 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_terms.table.tmpr5.gz (23/51/fopen): adding to final database dump
+0004.211 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_terms.table.gz (24/51/fopen): adding to final database dump
+0004.214 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_actionscheduler_actions.table.tmpr24924.gz (25/51/fopen): adding to final database dump
+0004.217 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_actionscheduler_actions.table.gz (26/51/fopen): adding to final database dump
+0004.220 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_actionscheduler_claims.table.tmpr0.gz (27/51/fopen): adding to final database dump
+0004.223 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_actionscheduler_claims.table.gz (28/51/fopen): adding to final database dump
+0004.226 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_actionscheduler_groups.table.tmpr4.gz (29/51/fopen): adding to final database dump
+0004.229 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_actionscheduler_groups.table.gz (30/51/fopen): adding to final database dump
+0004.232 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_actionscheduler_logs.table.tmpr240.gz (31/51/fopen): adding to final database dump
+0004.236 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_actionscheduler_logs.table.gz (32/51/fopen): adding to final database dump
+0004.239 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_cky_banners.table.tmpr3.gz (33/51/fopen): adding to final database dump
+0004.242 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_cky_banners.table.gz (34/51/fopen): adding to final database dump
+0004.245 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_cky_cookie_categories.table.tmpr6.gz (35/51/fopen): adding to final database dump
+0004.248 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_cky_cookie_categories.table.gz (36/51/fopen): adding to final database dump
+0004.251 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_cky_cookies.table.tmpr0.gz (37/51/fopen): adding to final database dump
+0004.256 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_cky_cookies.table.gz (38/51/fopen): adding to final database dump
+0004.259 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_db7_forms.table.tmpr15.gz (39/51/fopen): adding to final database dump
+0004.262 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_db7_forms.table.gz (40/51/fopen): adding to final database dump
+0004.265 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_rank_math_analytics_gsc.table.tmpr0.gz (41/51/fopen): adding to final database dump
+0004.268 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_rank_math_analytics_gsc.table.gz (42/51/fopen): adding to final database dump
+0004.271 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_rank_math_analytics_inspections.table.tmpr0.gz (43/51/fopen): adding to final database dump
+0004.274 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_rank_math_analytics_inspections.table.gz (44/51/fopen): adding to final database dump
+0004.277 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_rank_math_analytics_objects.table.tmpr22.gz (45/51/fopen): adding to final database dump
+0004.280 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_rank_math_analytics_objects.table.gz (46/51/fopen): adding to final database dump
+0004.283 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_rank_math_internal_links.table.tmpr0.gz (47/51/fopen): adding to final database dump
+0004.286 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_rank_math_internal_links.table.gz (48/51/fopen): adding to final database dump
+0004.288 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_rank_math_internal_meta.table.tmpr0.gz (49/51/fopen): adding to final database dump
+0004.291 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_rank_math_internal_meta.table.gz (50/51/fopen): adding to final database dump
+0004.294 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfauditevents.table.tmpr0.gz (51/51/fopen): adding to final database dump
+0004.297 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfauditevents.table.gz (52/51/fopen): adding to final database dump
+0004.300 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfblockediplog.table.tmpr1.gz (53/51/fopen): adding to final database dump
+0004.303 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfblockediplog.table.gz (54/51/fopen): adding to final database dump
+0004.305 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfblocks7.table.tmpr0.gz (55/51/fopen): adding to final database dump
+0004.309 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfblocks7.table.gz (56/51/fopen): adding to final database dump
+0004.312 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfconfig.table.tmpr1001.gz (57/51/fopen): adding to final database dump
+0004.327 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfconfig.table.gz (58/51/fopen): adding to final database dump
+0004.330 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfcrawlers.table.tmpr1.gz (59/51/fopen): adding to final database dump
+0004.333 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfcrawlers.table.gz (60/51/fopen): adding to final database dump
+0004.336 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wffilechanges.table.tmpr1.gz (61/51/fopen): adding to final database dump
+0004.339 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wffilechanges.table.gz (62/51/fopen): adding to final database dump
+0004.341 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wffilemods.table.tmpr12001.gz (63/51/fopen): adding to final database dump
+0004.394 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wffilemods.table.gz (64/51/fopen): adding to final database dump
+0004.397 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfhits.table.tmpr0.gz (65/51/fopen): adding to final database dump
+0004.401 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfhits.table.gz (66/51/fopen): adding to final database dump
+0004.404 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfhoover.table.tmpr0.gz (67/51/fopen): adding to final database dump
+0004.408 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfhoover.table.gz (68/51/fopen): adding to final database dump
+0004.412 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfissues.table.tmpr0.gz (69/51/fopen): adding to final database dump
+0004.415 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfissues.table.gz (70/51/fopen): adding to final database dump
+0004.418 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfknownfilelist.table.tmpr10033.gz (71/51/fopen): adding to final database dump
+0004.429 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfknownfilelist.table.gz (72/51/fopen): adding to final database dump
+0004.432 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wflivetraffichuman.table.tmpr1.gz (73/51/fopen): adding to final database dump
+0004.436 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wflivetraffichuman.table.gz (74/51/fopen): adding to final database dump
+0004.440 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wflocs.table.tmpr1.gz (75/51/fopen): adding to final database dump
+0004.443 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wflocs.table.gz (76/51/fopen): adding to final database dump
+0004.447 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wflogins.table.tmpr54.gz (77/51/fopen): adding to final database dump
+0004.451 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wflogins.table.gz (78/51/fopen): adding to final database dump
+0004.454 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfls_2fa_secrets.table.tmpr0.gz (79/51/fopen): adding to final database dump
+0004.458 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfls_2fa_secrets.table.gz (80/51/fopen): adding to final database dump
+0004.461 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfls_role_counts.table.tmpr1.gz (81/51/fopen): adding to final database dump
+0004.464 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfls_role_counts.table.gz (82/51/fopen): adding to final database dump
+0004.468 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfls_settings.table.tmpr1001.gz (83/51/fopen): adding to final database dump
+0004.471 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfls_settings.table.gz (84/51/fopen): adding to final database dump
+0004.474 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfnotifications.table.tmpr1001.gz (85/51/fopen): adding to final database dump
+0004.478 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfnotifications.table.gz (86/51/fopen): adding to final database dump
+0004.482 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfpendingissues.table.tmpr2.gz (87/51/fopen): adding to final database dump
+0004.485 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfpendingissues.table.gz (88/51/fopen): adding to final database dump
+0004.488 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfreversecache.table.tmpr1.gz (89/51/fopen): adding to final database dump
+0004.492 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfreversecache.table.gz (90/51/fopen): adding to final database dump
+0004.495 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfsecurityevents.table.tmpr0.gz (91/51/fopen): adding to final database dump
+0004.498 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfsecurityevents.table.gz (92/51/fopen): adding to final database dump
+0004.502 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfsnipcache.table.tmpr0.gz (93/51/fopen): adding to final database dump
+0004.505 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfsnipcache.table.gz (94/51/fopen): adding to final database dump
+0004.508 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfstatus.table.tmpr5848.gz (95/51/fopen): adding to final database dump
+0004.511 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfstatus.table.gz (96/51/fopen): adding to final database dump
+0004.515 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wftrafficrates.table.tmpr1.gz (97/51/fopen): adding to final database dump
+0004.518 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wftrafficrates.table.gz (98/51/fopen): adding to final database dump
+0004.521 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfwaffailures.table.tmpr0.gz (99/51/fopen): adding to final database dump
+0004.527 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wfwaffailures.table.gz (100/51/fopen): adding to final database dump
+0004.530 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wpfm_backup.table.tmpr0.gz (101/51/fopen): adding to final database dump
+0004.534 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db-table-wp_wpfm_backup.table.gz (102/51/fopen): adding to final database dump
+0004.548 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db.gz: finished writing out complete database file (1923.4 KB)
+0004.588 (0) Total database tables backed up: 51 (backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db.gz, size: 1969649, sha1: 2fbad8fcf11057b5806c1bbf47ab8db81eed08ce, sha256: 4d81aecb23c41dc8de30d4ef3b53334dd720cc4445bed7d2a13e804ed0de847e)
+0004.602 (0) backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db.gz: db: This file has not yet been successfully uploaded: will queue
+0004.604 (0) Saving backup history. Total backup size: 1.9 MB
+0004.610 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0004.618 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0004.620 (0) No remote despatch: user chose no remote backup service
+0004.623 (0) Recording as successfully uploaded: backup_2025-10-01-1308_France_Paris_Sport_1a82cd4c69c4-db.gz
+0004.629 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0004.631 (0) Resume backup (1a82cd4c69c4, 0): finish run
+0004.638 (0) Decremented the semaphore (fd) by 1
+0004.643 (0) Semaphore (fd) unlocked
+0004.646 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0004.655 (0) No email will/can be sent - the user has not configured an email address.
+0004.658 (0) The backup succeeded and is now complete

@@ -1,0 +1,159 @@
+.age-gate-background-color, .age-gate__background-color {
+    backdrop-filter: none;
+}
+
+.age-gate-wrapper, .age-gate__wrapper {
+    padding: 10px;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.age-gate {
+    padding: 16px;
+    max-width: 980px;
+    border-radius: 6px;
+    background: #FFEFEF;
+    box-shadow: 0px 3.115px 3.115px 0px rgba(0, 0, 0, 0.25);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    margin: 0;
+    padding-left: 0;
+}
+
+.age-gate-form, .age-gate__form {
+    flex-direction: row;
+    gap: 20px;
+}
+
+/* button.age-gate-submit-no,
+button.age-gate__submit--no {
+    display: none;
+} */
+
+.age-gate-buttons {
+    flex-direction: column;
+    gap: 15px;
+}
+
+.age-gate-submit {
+    width: 100%;
+}
+
+.age-gate-challenge {
+    margin: 0;
+}
+
+.age-gate-fields {
+    margin-bottom: 0;
+}
+
+button.age-gate-submit-yes,
+button.age-gate__submit--yes {
+    border-radius: 9.662px;
+    background: #00983D;
+    padding: 13px 16px;
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+button.age-gate-submit-yes:hover,
+button.age-gate__submit--yes:hover {
+    background: #01b147;
+}
+
+button.age-gate-submit-no,
+button.age-gate__submit--no {
+    border-radius: 9.662px;
+    background: #980000;
+    padding: 13px 16px;
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+button.age-gate-submit-no:hover,
+button.age-gate__submit--no:hover {
+    background: #b10000;
+}
+
+.age-gate-heading {
+    order: 1;
+    flex: 0 0 60px;
+    width: 60px;
+}
+
+.age-gate-heading img {
+    max-width: 100%;
+    margin-bottom: 0;
+}
+
+.age-gate-headline {
+    order: 2;
+    font-size: 15px;
+    position: absolute;
+    top: 18px;
+    left: 100px;
+}
+
+.age-gate-additional-information {
+    order: 3;
+    font-size: 12px;
+    line-height: 1.2;
+    text-align: left;
+    padding-top: 26px;
+}
+
+.age-gate-additional-information p {
+    margin-bottom: 7px;
+}
+
+.age-gate-additional-information strong {
+    font-weight: 700;
+}
+
+.age-gate-subheadline, .age-gate__subheadline {
+    display: none;
+}
+
+.age-gate-fields {
+    order: 4;
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .age-gate-form, .age-gate__form {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .age-gate-headline {
+        position: initial;
+        margin-bottom: 0;
+    }
+
+    .age-gate-additional-information {
+        padding-top: 0;
+    }
+
+    .age-gate {
+        padding-left: 12px;
+    }
+
+    .age-gate-buttons, .age-gate__buttons {
+        justify-content: start;
+    }
+
+    .age-gate-challenge {
+        margin-bottom: 6px;
+    }
+
+    .age-gate-fields {
+        margin-bottom: 0;
+    }
+
+    .age-gate-buttons {
+        flex-direction: row;
+    }
+}

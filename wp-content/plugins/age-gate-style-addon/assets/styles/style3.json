@@ -1,0 +1,125 @@
+{
+    "version": "3.5.2",
+    "options": {
+        "restriction": {
+            "default_age": "18",
+            "type": "all",
+            "input_type": "buttons",
+            "date_format": "DD MM YYYY",
+            "button_order": "yes-no",
+            "year_order": "low-high",
+            "remember_length": {
+                "remember_length": "365",
+                "remember_time": "days"
+            },
+            "rechallenge": "1",
+            "redirect": "https:\/\/www.google.com\/"
+        },
+        "appearance": {
+            "logo": "22761",
+            "heading": "",
+            "background_color": "#989898",
+            "background_opacity": "0.8",
+            "blur": "5",
+            "background_image": "",
+            "background_position": {
+                "x": "center",
+                "y": "center"
+            },
+            "background_image_opacity": "1",
+            "foreground_color": "#ffffff",
+            "foreground_opacity": "1",
+            "text_color": "#000000",
+            "enqueue_css": "1",
+            "heading_element": "h1",
+            "headline_element": "h2",
+            "sub_headline_element": "p",
+            "exit_transition": "",
+            "switch_title": "1",
+            "custom_title": "V\u00e9rification d\\'\u00c2ge"
+        },
+        "message": {
+            "headline": "V\u00e9rification d\\'\u00c2ge",
+            "subheadline": "",
+            "label_remember": "Remember me",
+            "label_aria": "",
+            "label_buttons": "",
+            "label_yes": "Accepter",
+            "label_no": "Je n’ai pas 18 ans",
+            "label_day": "Day",
+            "label_month": "Month",
+            "label_year": "Year",
+            "placeholder_day": "DD",
+            "placeholder_month": "MM",
+            "placeholder_year": "YYYY",
+            "label_submit": "Submit",
+            "label_no_cookies": "Your browser does not support cookies, you may experience problems entering this site",
+            "content": "Vous devez avoir au moins 18 ans pour acc\u00e9der \u00e0 ce contenu. Veuillez confirmer votre \u00e2ge, s\\'il vous pla\u00eet.",
+            "error_invalid": "Your input was invalid",
+            "error_failed": "You are not old enough to view this content",
+            "error_generic": "An error occurred, please try again",
+            "error_date": "The {field} must be a valid date"
+        },
+        "content": {
+            "disable": {
+                "post": false,
+                "page": false,
+                "casino_management": false,
+                "betting": false,
+                "news": false,
+                "page_templates": false
+            },
+            "ancestor": {
+                "page": false,
+                "page_templates": false
+            },
+            "inherit": false,
+            "4": {
+                "error_404": {
+                    "default": false
+                }
+            }
+        },
+        "advanced": {
+            "method": "js",
+            "renderer": "script",
+            "preload": "1",
+            "toolbar": "1",
+            "user_agents": "",
+            "cookie_name": "age_gate",
+            "css_type": "v2"
+        },
+        "access": {
+            "restriction": {
+                "administrator": "Administrator",
+                "editor": "Editor"
+            },
+            "appearance": {
+                "administrator": "Administrator",
+                "editor": "Editor"
+            },
+            "advanced": {
+                "administrator": "Administrator"
+            },
+            "message": {
+                "administrator": "Administrator",
+                "editor": "Editor"
+            },
+            "access": {
+                "administrator": "Administrator"
+            },
+            "content": {
+                "administrator": "Administrator"
+            },
+            "tools": {
+                "administrator": "Administrator"
+            }
+        },
+        "tools": {
+            "disable_age_gate": false,
+            "dev_warning": true,
+            "dev_endpoint": false,
+            "feedback": false
+        }
+    }
+}

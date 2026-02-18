@@ -1,0 +1,135 @@
+.age-gate-wrapper, .age-gate__wrapper {
+    padding: 10px;
+}
+
+.age-gate-background-color, .age-gate__background-color {
+    backdrop-filter: blur(1px);
+    opacity: 0.9;
+}
+
+.age-gate {
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 270px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border: 2px solid #9E0A0A;
+    background: #FFF5F5;
+    padding-top: 70px;
+}
+
+/* button.age-gate-submit-no,
+button.age-gate__submit--no {
+    display: none;
+} */
+
+.age-gate-buttons {
+    flex-direction: column;
+    gap: 13px;
+}
+
+button.age-gate-submit-yes,
+button.age-gate__submit--yes {
+    border-radius: 8px;
+    border: 2px solid rgba(0, 141, 6, 0.90);
+    background: #C3FFDB;
+    box-shadow: 0px -2px 1px 0px rgba(0, 0, 0, 0.25) inset;
+    padding: 14.492px 28.985px;
+    font-size: 14px;
+    display: block;
+    text-transform: uppercase;
+    width: 100%;
+    color: rgba(0, 141, 6, 0.90);
+}
+
+button.age-gate-submit-yes:hover,
+button.age-gate__submit--yes:hover {
+    border: 2px solid rgba(0, 141, 6, 0.90);
+    background: #80ffb3;
+    box-shadow: 0px -2px 1px 0px rgba(0, 0, 0, 0.25) inset;
+    color: rgba(0, 141, 6, 0.90);;
+}
+
+button.age-gate-submit-no,
+button.age-gate__submit--no {
+    border-radius: 8px;
+    border: 2px solid rgba(198, 0, 0, 0.90);
+    background: #FFC3C3;
+    box-shadow: 0px -2px 1px 0px rgba(0, 0, 0, 0.25) inset;
+    padding: 14.492px 28.985px;
+    font-size: 14px;
+    display: block;
+    text-transform: uppercase;
+    width: 100%;
+    color: rgba(198, 0, 0, 0.90);
+}
+
+button.age-gate-submit-no:hover,
+button.age-gate__submit--no:hover {
+    border: 2px solid rgba(198, 0, 0, 0.90);
+    background: #f7a0a0;
+    box-shadow: 0px -2px 1px 0px rgba(0, 0, 0, 0.25) inset;
+    color: rgba(198, 0, 0, 0.90);
+}
+
+.age-gate-heading {
+    order: 1;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #9E0A0A;
+    height: 55px;
+}
+
+.age-gate-heading img {
+    max-width: 50px;
+    margin-bottom: 0;
+}
+
+.age-gate-headline {
+    order: 2;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #9E0A0A;
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+
+.age-gate-additional-information {
+    order: 3;
+    font-size: 14px;
+    line-height: 1.2;
+    text-align: left;
+}
+
+.age-gate-additional-information p {
+    margin-bottom: 10px;
+}
+
+.age-gate-subheadline, .age-gate__subheadline {
+    display: none;
+}
+
+.age-gate-additional-information strong {
+    font-weight: 700;
+}
+
+.age-gate-form, .age-gate__form {
+    align-items: flex-start;
+}
+
+.age-gate-challenge {
+    margin-bottom: 10px;
+}
+
+.age-gate-fields {
+    order: 4;
+    margin-bottom: 0;
+}

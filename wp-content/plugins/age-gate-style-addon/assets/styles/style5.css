@@ -1,0 +1,135 @@
+.age-gate-wrapper, .age-gate__wrapper {
+    padding: 10px;
+}
+
+.age-gate {
+    padding: 16px 24px 20px;
+    max-width: 510px;
+    border-radius: 8px;
+    background: #F8F8F8;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding-left: 155px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+/* button.age-gate-submit-no,
+button.age-gate__submit--no {
+    display: none;
+} */
+
+button.age-gate-submit-yes,
+button.age-gate__submit--yes {
+    border-radius: 8px;
+    background: #009F10;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.25);
+    padding: 12px 12px;
+    font-size: 13px;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    text-transform: uppercase;
+}
+
+button.age-gate-submit-yes:hover,
+button.age-gate__submit--yes:hover {
+    background: #00c013;
+}
+
+button.age-gate-submit-no,
+button.age-gate__submit--no {
+    border-radius: 8px;
+    background: #C10000;
+    box-shadow: 0px 1.472px 0.736px 0px rgba(0, 0, 0, 0.25);
+    padding: 12px 12px;
+    font-size: 13px;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    text-transform: uppercase;
+}
+
+
+button.age-gate-submit-no:hover,
+button.age-gate__submit--no:hover {
+    background: #a00000;
+}
+
+.age-gate-submit {
+    flex: 1;
+}
+
+.age-gate-heading {
+    order: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #C10000;
+}
+
+.age-gate-challenge {
+    margin-bottom: 12px;
+}
+
+.age-gate-heading img {
+    max-width: 50px;
+}
+
+.age-gate-headline {
+    order: 1;
+    color: #C10000;
+    font-size: 26px;
+    text-transform: uppercase;
+    width: 100%;
+    border-bottom: 1px solid rgba(193, 0, 0, 0.40);
+    padding: 16px 0;
+}
+
+.age-gate-additional-information {
+    order: 3;
+    font-size: 16px;
+}
+
+.age-gate-subheadline, .age-gate__subheadline {
+    display: none;
+}
+
+.age-gate-additional-information strong {
+    font-weight: 700;
+}
+
+.age-gate-fields {
+    order: 4;
+    margin-bottom: 0;
+}
+
+.age-gate-background-color, .age-gate__background-color {
+    backdrop-filter: none;
+}
+
+
+
+@media (max-width: 500px) {
+    .age-gate {
+        padding: 16px 12px;
+        padding-left: 90px;
+    }
+
+    .age-gate-heading {
+        width: 80px;
+    }
+
+    .age-gate-headline {
+        font-size: 16px;
+        padding: 10px 0;
+    }
+
+    button.age-gate-submit {
+        font-size: 10px;
+        padding: 12px 10px;
+        flex: auto;
+    }
+}

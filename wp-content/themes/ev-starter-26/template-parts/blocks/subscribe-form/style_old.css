@@ -1,0 +1,182 @@
+.section-subscribe {
+    padding: 20px 28px;
+    border-radius: 5px;
+    border: 1px solid rgba(14, 139, 192, 0.42);
+    background: url(../../../img/bonus.png), linear-gradient(57deg, #0D191E 32.65%, #352D1B 99.89%);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 100% 100%, 0 0;
+    margin: 0 0 32px;
+}
+
+.section-subscribe .newsletter-title {
+    font-size: 18px;
+    line-height: 1.2;
+    color: #fff;
+    font-weight: 500;
+}
+
+.section-subscribe .form-field {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.10);
+    color: #fff;
+    font-size: 13px;
+    padding: 10px 12px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    width: 100%;
+}
+
+.section-subscribe .form-field:focus {
+    outline: none;
+    border: 1px solid #FFC652;
+}
+
+.section-subscribe .subscribe-btn {
+    border-radius: 999px;
+    background: #D9381D;
+    color: #FFF;
+
+    text-align: center;
+
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    text-align: center;
+}
+
+.section-subscribe .form-field::placeholder {
+    color: #7A7881;
+}
+
+.section-subscribe p {
+    margin-bottom: 0;
+}
+
+.section-subscribe .form-check {
+    padding: 0;
+    margin: 0;
+}
+
+.wpcf7-list-item input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create custom checkbox */
+.section-subscribe .wpcf7-list-item-label::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 18px;
+    height: 18px;
+    border-radius: 2px;
+    border: 1px solid #58565F;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.section-subscribe .wpcf7-list-item-label::after {
+    content: "";
+    position: absolute;
+    left: 6px;
+    top: 5px;
+    width: 6px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.section-subscribe .wpcf7-list-item input[type="checkbox"]:checked+.wpcf7-list-item-label::before {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.section-subscribe .wpcf7-list-item input[type="checkbox"]:checked+.wpcf7-list-item-label::after {
+    opacity: 1;
+}
+
+.section-subscribe .wpcf7-list-item input[type="checkbox"]:focus+.wpcf7-list-item-label::before {
+    box-shadow: 0 0 0 2px rgba(231, 76, 60, 0.25);
+}
+
+.section-subscribe .wpcf7-list-item {
+    margin: 0;
+    color: #A99ECF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    margin-left: 30px;
+}
+
+.section-subscribe .wpcf7-not-valid-tip {
+    position: absolute;
+    bottom: -35px;
+    left: 0;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.section-subscribe input:-internal-autofill-selected {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+.section-subscribe .accept-terms {
+    display: flex;
+}
+
+.section-subscribe .accept-terms .wpcf7-not-valid-tip {
+    bottom: -16px;
+    left: 30px;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.section-subscribe .wpcf7 form.sent .wpcf7-response-output {
+    font-size: 0;
+    position: absolute;
+    font-size: 0;
+    top: -8px;
+    left: 100%;
+}
+
+
+@media (max-width: 768px) {
+    .section-subscribe {
+        margin: 20px 0;
+    }
+    .section-subscribe .subscribe-btn {
+        width: 150px;
+        margin-top: 16px;
+    }
+
+    .section-subscribe .accept-terms {
+        max-width: 66%;
+    }
+
+    .section-subscribe {
+        background: url(../../../img/bonus-mob.png), linear-gradient(57deg, #0D191E 32.65%, #352D1B 99.89%);
+        background-repeat: no-repeat;
+        background-position: 100% 100%, 0 0;
+    }
+
+    .section-subscribe .wpcf7-not-valid-tip {
+        position: static;
+    }
+
+    .section-subscribe .wpcf7 form.sent .wpcf7-response-output {
+        left: inherit;
+        right: 20px;
+    }
+}

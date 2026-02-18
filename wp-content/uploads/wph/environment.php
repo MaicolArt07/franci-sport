@@ -1,0 +1,2 @@
+<?php if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+$environment_variable = '{"theme":{"folder_name":"ev-starter-26","mapped_name":"template"},"allowed_paths":["C:\/wamp64\/www\/franci-sport\/wp-content\/themes"],"cache_path":"C:\/wamp64\/www\/franci-sport\/wp-content\/cache\/wph\/","wordpress_directory":"","site_relative_path":"\/"}'; ?>

@@ -1,0 +1,135 @@
+#wpcf7-f24830-o1 {
+    border: 1px solid rgba(0, 255, 255, 0.2);
+    border-radius: 8px;
+}
+
+.section-subscribe label {
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 4px;
+    display: block;
+}
+
+.section-subscribe input[type="text"],
+.section-subscribe input[type="email"],
+.section-subscribe textarea {
+    background-color: #fff;
+    color: #000; /* Texto escrito: NEGRO */
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 6px;
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 14px;
+}
+
+/* Placeholder por defecto: gris claro */
+.section-subscribe input::placeholder,
+.section-subscribe textarea::placeholder {
+    color: #999;
+}
+
+/* Placeholder color NEGRO al focus */
+.section-subscribe input:focus::placeholder,
+.section-subscribe textarea:focus::placeholder {
+    color: #000;
+}
+
+/* Borde más visible cuando tiene focus */
+.section-subscribe input:focus,
+.section-subscribe textarea:focus {
+    outline: none;
+    border-color: #09C3EE; /* Puedes cambiar por el color que quieras */
+}
+
+/* Textarea ajustes */
+.section-subscribe textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+/* Mensaje de respuesta Contact Form 7 */
+.section-subscribe .wpcf7-response-output {
+    color: #ff0080; /* Puedes ajustar a otro color */
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+/* Botón enviar */
+.section-subscribe .wpcf7-submit {
+    background: linear-gradient(90deg, #f0f, #a0f);
+    color: #fff;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 15px;
+}
+
+.section-subscribe .wpcf7-submit:hover {
+    background: linear-gradient(90deg, #c0f, #70f);
+}
+
+
+.contact-form{
+    width: 100% !important; 
+    display: block !important;
+}
+
+
+/* .btn-action-form {
+    width: 326px;
+    height: 38.37287902832031px;
+    gap: 9.49px;
+    border-radius: 7.59px;
+    padding-top: 15.19px;
+    padding-right: 11.39px;
+    padding-bottom: 15.19px;
+    padding-left: 11.39px;
+    background: #FF16F2;
+    border: none;
+} */
+
+.section-subscribe .btn-action-form 
+{
+    width: 326px;
+    height: 38.37287902832031px;
+    background: #FF16F2;
+    color: #fff; /* Color del texto blanco */
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 15px;
+    
+    /* Centrado perfecto */
+    display: flex;
+    align-items: center;   /* Centrado vertical */
+    justify-content: center; /* Centrado horizontal */
+    
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.section-subscribe .btn-action-form:hover {
+    background: linear-gradient(90deg, #c0f, #70f);
+}
+
+/* HOVER STATE */
+/* .btn-action-form:hover {
+    background: linear-gradient(90deg, #DE26D3 0%, #A600A8 100%);
+    box-shadow:
+        0px -3px 0px 0px #00000063 inset,
+        0px 2px 0px 0px #FFFFFF70 inset,
+        0px 0px 53.1px 0px #680043;
+} */
+
+/* RESPONSIVE TEXT SIZE */
+@media (max-width: 1088px) {
+    .section-subscribe .btn-action-form  {
+        width: 100%;
+    }
+}

@@ -1,0 +1,85 @@
+/* General form styles */
+.betting-management-table-wrapper {
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    max-width: 100%; /* Ensure it doesn't exceed the container width */
+}
+
+/* Styles for headings */
+.betting-management-table-wrapper h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+/* File input styles */
+input[type="file"] {
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+/* Button styles */
+input[type="submit"].button {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+/* Table styles */
+#meta-data-table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 1200px; /* Ensure enough width to trigger horizontal scroll */
+}
+
+#meta-data-table th,
+#meta-data-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+    white-space: nowrap; /* Prevent text wrapping in cells */
+}
+
+#meta-data-table th {
+    background-color: #0073aa;
+    color: white;
+}
+
+#meta-data-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+#meta-data-table .table-image-holder {
+    display: flex;
+    flex-direction: column;
+
+}
+#meta-data-table .table-image-holder img {
+    margin-bottom: 10px;
+}
+/* Input field styles inside the table */
+#meta-data-table input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.betting-management-table-wrapper .dataTables_paginate,
+.betting-management-table-wrapper .dataTables_info,
+.betting-management-table-wrapper .dataTables_filter,
+.betting-management-table-wrapper .dataTables_length {
+    display: none;
+}
+
+/* Optional: Add sticky header for better visibility */
+#meta-data-table th {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #0073aa; /* Same background color for the header */
+}

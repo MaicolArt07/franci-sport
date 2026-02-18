@@ -1,0 +1,80 @@
+.age-gate-wrapper, .age-gate__wrapper {
+    padding: 10px;
+}
+
+.age-gate {
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 525px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* button.age-gate-submit-no,
+button.age-gate__submit--no {
+    display: none;
+} */
+
+button.age-gate-submit-no,
+button.age-gate__submit--no {
+    border-radius: 9.662px;
+    background: #F00;
+    color: #fff;
+    padding: 14.492px 28.985px;
+    font-size: 16px;
+}
+
+button.age-gate-submit-no:hover,
+button.age-gate__submit--no:hover {
+    background: rgb(175, 0, 0);
+}
+
+button.age-gate-submit-yes,
+button.age-gate__submit--yes {
+    border-radius: 9.662px;
+    background: #00983D;
+    padding: 15px 29px;
+    font-size: 16px;
+}
+
+button.age-gate-submit-yes:hover,
+button.age-gate__submit--yes:hover {
+    background: #006b2b;
+}
+
+.age-gate-heading {
+    order: 2;
+}
+
+.age-gate-heading img {
+    max-width: 67px;
+}
+
+.age-gate-headline {
+    order: 1;
+    font-size: 19px;
+}
+
+.age-gate-additional-information {
+    order: 3;
+    font-size: 16px;
+}
+
+.age-gate-additional-information strong {
+    font-weight: 700;
+}
+
+.age-gate-fields {
+    order: 4;
+}
+
+@media (max-width: 768px) {
+    .age-gate-buttons, .age-gate__buttons {
+        gap: 10px;
+    }
+
+    button.age-gate-submit {
+        padding: 14px 13px;
+        font-size: 14px;
+        flex: auto;
+    }
+}

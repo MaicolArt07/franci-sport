@@ -1,0 +1,120 @@
+.age-gate-background-color, .age-gate__background-color {
+    backdrop-filter: none;
+}
+
+.age-gate-wrapper, .age-gate__wrapper {
+    padding: 10px;
+    align-items: flex-end;
+}
+
+.age-gate {
+    border-radius: 10px;
+    padding: 16px 8px;
+    max-width: 290px;
+    background: #DE0000;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 0;
+}
+
+/* button.age-gate-submit-no,
+button.age-gate__submit--no {
+    display: none;
+} */
+
+.age-gate-buttons {
+    flex-direction: column;
+    gap: 10px;
+}
+
+button.age-gate-submit-yes,
+button.age-gate__submit--yes {
+    border-radius: 4px;
+    background: #231100;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.25);
+    padding: 14.492px 28.985px;
+    font-size: 14px;
+    display: block;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+button.age-gate-submit-yes:hover,
+button.age-gate__submit--yes:hover {
+    background: #222222;
+}
+
+button.age-gate-submit-no,
+button.age-gate__submit--no {
+    border-radius: 4px;
+    border: 2px solid #000;
+    background: rgba(35, 17, 0, 0.10);
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.25);
+    padding: 14.492px 28.985px;
+    font-size: 14px;
+    display: block;
+    text-transform: uppercase;
+    width: 100%;
+    color: #161616;
+}
+
+button.age-gate-submit-no:hover,
+button.age-gate__submit--no:hover {
+    color: #161616;
+    border: 2px solid #000;
+    background: rgba(35, 17, 0, 0.20);
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+.age-gate-heading {
+    order: 1;
+    position: absolute;
+    top: 16px;
+    left: 12px;
+}
+
+.age-gate-heading img {
+    max-width: 46px;
+    margin-bottom: 15px;
+}
+
+.age-gate-headline {
+    order: 2;
+    font-size: 18px;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: left;
+    padding-left: 65px;
+    color: #FFF;
+}
+
+.age-gate-additional-information {
+    order: 3;
+    font-size: 15px;
+    line-height: 1.2;
+    background: #fff;
+    padding: 16px 8px;
+    border-radius: 8px;
+    position: relative;
+    z-index: 2;
+}
+
+.age-gate-subheadline, .age-gate__subheadline {
+    display: none;
+}
+
+.age-gate-additional-information strong {
+    font-weight: 700;
+}
+
+.age-gate-fields {
+    order: 4;
+    margin-bottom: 0;
+    background: #fff;
+    padding: 16px 8px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-top: -40px;
+}

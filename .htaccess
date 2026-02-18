@@ -1,0 +1,89 @@
+# BEGIN WP Hide & Security Enhancer
+<IfModule mod_rewrite.c> 
+RewriteEngine On 
+RewriteBase / 
+#WriteCheckString:1742927655_66154
+RewriteRule ^rewrite_test_1742927655_66154/? /wp-content/plugins/wp-hide-security-enhancer/include/rewrite-confirm.php [L,QSA]
+RewriteRule ^rewrite_test_static_file_1742927655_66154/? /wp-content/plugins/wp-hide-security-enhancer/composer.json [L,QSA]
+
+RewriteRule ^template/skin.css /wp-content/themes/ev-starter-26/style.css [L,QSA]
+
+RewriteRule ^template/(.+) /wp-content/themes/ev-starter-26/$1 [L,QSA]
+
+RewriteRule ^extention100/(.+) "/wp-content/plugins/acf-quickedit-fields/$1" [L,QSA]
+RewriteRule ^extention101/(.+) "/wp-content/plugins/advanced-custom-fields-pro/$1" [L,QSA]
+RewriteRule ^extention102/(.+) "/wp-content/plugins/betting-table/$1" [L,QSA]
+RewriteRule ^extention103/(.+) "/wp-content/plugins/contact-form-7/$1" [L,QSA]
+RewriteRule ^extention104/(.+) "/wp-content/plugins/contact-form-cfdb7/$1" [L,QSA]
+RewriteRule ^extention105/(.+) "/wp-content/plugins/cookie-law-info/$1" [L,QSA]
+RewriteRule ^extention106/(.+) "/wp-content/plugins/duplicate-page/$1" [L,QSA]
+RewriteRule ^extention107/(.+) "/wp-content/plugins/feedzy-rss-feeds-pro/$1" [L,QSA]
+RewriteRule ^extention108/(.+) "/wp-content/plugins/feedzy-rss-feeds/$1" [L,QSA]
+RewriteRule ^extention110/(.+) "/wp-content/plugins/simple-custom-post-order/$1" [L,QSA]
+RewriteRule ^extention111/(.+) "/wp-content/plugins/wordfence/$1" [L,QSA]
+RewriteRule ^extentions/(.+) /wp-content/plugins/$1 [L,QSA]
+
+RewriteRule ^vudilej/(.+) /wp-includes/$1 [L,QSA]
+
+RewriteRule ^images/(.+) /wp-content/uploads/$1 [L,QSA]
+
+RewriteRule ^xmlrpc.php - [R=404]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^license.txt /index.php?wph-throw-404 [L]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^readme.html /index.php?wph-throw-404 [L]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^wp-activate.php /index.php?wph-throw-404 [L]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^wp-signup.php /index.php?wph-throw-404 [L]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^wp-register.php /index.php?wph-throw-404 [L]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteCond %{REQUEST_FILENAME} !wp-activate.php [NC]
+RewriteCond %{REQUEST_FILENAME} !wp-cron.php [NC]
+RewriteCond %{REQUEST_FILENAME} !wp-signup.php [NC]
+RewriteCond %{REQUEST_FILENAME} !wp-register.php [NC]
+RewriteCond %{REQUEST_FILENAME} !wp-comments-post.php [NC]
+RewriteCond %{REQUEST_FILENAME} !wp-login.php [NC]
+RewriteRule ^wp-([a-z-])+.php /index.php?wph-throw-404 [L]
+
+RewriteRule ^tuhiseb.php /wp-comments-post.php [L,QSA]
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^wp-comments-post.php /index.php?wph-throw-404 [L]
+
+RewriteRule ^labovis/(.+) /wp-content/$1 [L,QSA]
+
+RewriteCond %{REQUEST_URI} ([^/]+)/(feed|rdf|rss|rss2|atom)/?$  [OR]
+RewriteCond %{REQUEST_URI} ^/(feed|rdf|rss|rss2|atom)/?$
+RewriteRule . /index.php?wph-throw-404 [L]
+
+RewriteCond %{HTTP_COOKIE} !^.*wordpress_logged_in.*$ [NC]
+RewriteCond %{REMOTE_ADDR} ^167\.99\.233\.\d+$ [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} (builtwith|gochyu|isitwp|mshots|scanwp|wpthemedetector|whatcms|wapalyzer|wpdetector) [NC]
+RewriteRule ^ /wp-content/plugins/wp-hide-security-enhancer/router/empty.html [END]
+
+RewriteRule ^s3po9qry(.*) /wp-login.php$1 [L,QSA]
+</IfModule> 
+<IfModule mod_headers.c>
+        Header unset X-Powered-By
+        Header unset Server
+        Header unset X-Pingback
+</IfModule>
+# END WP Hide & Security Enhancer
+
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
